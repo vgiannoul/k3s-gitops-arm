@@ -4,12 +4,12 @@ helmOperator:
 # @CHANGEME - Update url to your public repo URL
 #
 git:
-  url: "git@github.com:onedr0p/homelab-gitops.git"
+  url: "git@github.com:vgiannoul/k3s-gitops-arm"
   branch: master
   path: deployments
 image:
   repository: raspbernetes/flux
-  tag: 1.18.0
+  tag: 1.20.0
 registry:
   rps: 1
   burst: 1
