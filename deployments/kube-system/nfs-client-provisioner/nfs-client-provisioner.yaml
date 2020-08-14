@@ -23,15 +23,15 @@ spec:
     # @CHANGEME - Update server and path to your NFS server
     #
     nfs:
-      server: "192.168.1.170"
-      path: "/share/Kubernetes"
-      mountOptions:
-        - tcp
-        - intr
-        - hard
-        - noatime
-        - nodiratime
-        - rsize=32768
-        - wsize=32768
+      server: "192.168.1.14"
+      path: "/data/projects/nfs-provisioner"
+      # mountOptions:
+      #   - tcp
+      #   - intr
+      #   - hard
+      #   - noatime
+      #   - nodiratime
+      #   - rsize=32768
+      #   - wsize=32768
     storageClass:
       defaultClass: true
